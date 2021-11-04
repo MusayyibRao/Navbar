@@ -1,0 +1,36 @@
+<div class="nav-1">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary " style="padding: 10px;">
+    <a class="navbar-brand" style="background-color: violet;border: 2px solid red; border-radius: 20px;padding: 15px; color: yellow;font-size: 20px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="#">My App</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/register">Register<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/login">Login<span class="sr-only"></span></a>
+          </li>
+          
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/userlist">UsersList<span class="sr-only"></span></a>
+          </li>
+          
+
+              </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+</div>
+  <router-outlet></router-outlet>
